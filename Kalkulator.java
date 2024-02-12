@@ -14,6 +14,8 @@ public class Kalkulator {
         System.out.println("4. Pembagian");
         System.out.println("5. Hasil Bagi");
 
+        
+
         System.out.println("Masukan pilihan (1/2/3/4)");
         String pilihan = scanner.nextLine();
 
