@@ -13,11 +13,11 @@ public class Kalkulator {
         System.out.println("2 penjumlahan");
         System.out.println("3 perkalian");
         System.out.println("4 pembagian");
-        System.out.println("6 hasil bagi");
+        System.out.println("5 hasil bagi");
         
 
 
-        System.out.print  ("Masukkan pilihan (1/2/3/4/90) ");
+        System.out.print  ("Masukkan pilihan (1/2/3/4/5) ");
         int pilihan = scanner.nextInt();
         
         System.out.print("Angka pertama : ");
