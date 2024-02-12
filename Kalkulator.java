@@ -11,6 +11,9 @@ public class Kalkulator {
         System.out.println("Pilih Operasi : ");
         System.out.println("1 pengurangan");
         System.out.println("2 penjumlahan");
+        System.out.println("3 perkalian");
+        System.out.println("4 pembagian");
+
         System.out.print  ("Masukkan pilihan 1/2 ");
         int pilihan = scanner.nextInt();
         
