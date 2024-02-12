@@ -3,40 +3,34 @@ import java.util.*;
 
 public class Kalkulator {
 
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int angka1,angka2;
 
-        System.out.println("Pilih oprasi : ");
-        System.out.println("1. Penjumlahan");
-        System.out.println("2. Pengurangan");
-        System.out.println("3. Perkalian");
-        System.out.println("4. Pembagian");
-        System.out.println("5. Hasil Bagi");
-
+        System.out.println("Pilih Operasi : ");
+        System.out.println("1 pengurangan");
+        System.out.println("2 penjumlahan");
+        System.out.println("3 perkalian");
+        System.out.println("4 pembagian");
+        System.out.println("6 hasil bagi");
         
 
+<<<<<<< HEAD
         System.out.println("Masukan pilihan (1/2/3/4/5)");
         String pilihan = scanner.nextLine();
+=======
+        System.out.print  ("Masukkan pilihan (1/2/3/4/6) ");
+        int pilihan = scanner.nextInt();
+        
+        System.out.print("Angka pertama : ");
+        angka1=scanner.nextInt();
+        System.out.print("Angka kedua   : ");
+        angka2=scanner.nextInt();
+>>>>>>> 72f68e0431898abf23a4f49264da3b7a558d0e89
 
-        if (pilihan.equals("1") || pilihan.equals("2") || pilihan.equals("3") || pilihan.equals("4")){
-            System.out.println("Masukan bilangan pertama: ");
-            angka1 = scanner.nextInt();
-            System.out.println("Masukan bilangan kedua");
-            angka2 = scanner.nextInt();
-
-            if (pilihan.equals("1")) {
-                System.out.println(angka1 + "+" + angka2+ " = "+ (angka1 + angka2));
-            }else if(pilihan.equals("2")){
-                System.out.println(angka1 + "-" + angka2+ " = "+ (angka1 - angka2));
-            }else if(pilihan.equals("3")){
-                System.out.println(angka1 + "*" + angka2+ " = "+ (angka1 * angka2));
-            }else if(pilihan.equals("4")){
-                System.out.println(angka1 + "/" + angka2+ " = "+ (angka1 / angka2));
-            
-            }else{  System.out.println("Pilihan invalid");
-
-        }
+        if (pilihan == 1){
+            System.out.println("Hasil Pengurangan "+angka1+" - "+angka2+" = " + (angka1-angka2));
 
     }
 }
