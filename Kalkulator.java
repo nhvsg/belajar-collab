@@ -16,18 +16,15 @@ public class Kalkulator {
         System.out.println("6 hasil bagi");
         
 
-<<<<<<< HEAD
-        System.out.println("Masukan pilihan (1/2/3/4/5)");
-        String pilihan = scanner.nextLine();
-=======
-        System.out.print  ("Masukkan pilihan (1/2/3/4/6) ");
+
+        System.out.print  ("Masukkan pilihan (1/2/3/4/90) ");
         int pilihan = scanner.nextInt();
         
         System.out.print("Angka pertama : ");
         angka1=scanner.nextInt();
         System.out.print("Angka kedua   : ");
         angka2=scanner.nextInt();
->>>>>>> 72f68e0431898abf23a4f49264da3b7a558d0e89
+
 
         if (pilihan == 1){
             System.out.println("Hasil Pengurangan "+angka1+" - "+angka2+" = " + (angka1-angka2));
